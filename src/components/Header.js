@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { FaHome, FaUser, FaSignInAlt, FaSignOutAlt,FaTachometerAlt } from 'react-icons/fa'; // Example icons
+import { FaHome,FaSignInAlt, FaSignOutAlt,FaTachometerAlt } from 'react-icons/fa'; // Example icons
 import { FaUserPlus } from 'react-icons/fa';  // This might work as an alternative
 
 

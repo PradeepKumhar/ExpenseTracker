@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useMemo } from "react";
 import FilterExpenses from "../components/Expense/FilterExpenses";
 import AddExpense from "../components/Expense/AddExpense";
-import dashboardImage from "../assests/images/DashBoard.jpg"; // Corrected typo in 'assets'
 import ExpenseList from "../components/Expense/ExpenseList";
 import Papa from "papaparse"; 
 import { fetchExpensesFromAPI, uploadBulkExpensesAPI } from "../utils/api";
@@ -280,12 +279,6 @@ const Dashboard = () => {
       editMode: true,
       editExpenseId: expense._id,
     }));
-  };
-
-  // Format date for display
-  const formatDate = (date) => {
-    const options = { year: "numeric", month: "long", day: "numeric" };
-    return new Date(date).toLocaleDateString("en-US", options);
   };
 
   const filteredExpenses = useMemo(
