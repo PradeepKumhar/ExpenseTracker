@@ -6,7 +6,7 @@ import Papa from "papaparse";
 import { fetchExpensesFromAPI, uploadBulkExpensesAPI } from "../utils/api";
 
 const Dashboard = () => {
-  const [showFilter, setShowFilter] = useState(false);  // State for Filter visibility
+  const [showFilter, setShowFilter] = useState(false);  
   const [state, setState] = useState({
     expenses: [],
     filteredExpenses: [],
