@@ -1,0 +1,32 @@
+# Ignore node_modules directories in both backend and frontend
+/backend/node_modules/
+/front-end/node_modules/
+
+# Ignore environment files for both backend and frontend
+/backend/.env
+/frontend/.env
+
+# Ignore logs
+*.log
+
+# Ignore npm-debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore the build directories for frontend (if applicable)
+frontend/build/
+
+# Ignore .DS_Store (macOS specific)
+.DS_Store
+
+# Ignore any other system-specific files
+Thumbs.db
+
+# Ignore any other sensitive or unnecessary files
+**/env/*
+
+# Optional: If you have a package-lock.json or yarn.lock that you don't want to track, ignore them here.
+# But usually it's recommended to track these files for consistent dependencies.
+# /backend/package-lock.json
+# /frontend/package-lock.json
