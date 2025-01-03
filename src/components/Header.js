@@ -28,10 +28,14 @@ const Header = () => {
     navigate('/login');
   };
 
+  const handleBtnClick = () =>{
+    navigate('/');
+  }
+
   return (
     <nav className="bg-blue-600 p-4 shadow-lg">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="text-white text-2xl font-semibold flex items-center">
+        <div onClick={handleBtnClick} className="text-white text-2xl font-semibold flex items-center">
           {/* <img src="/logo.png" alt="Logo" className="w-8 h-8 mr-2" /> Optional logo */}
           Expense Tracker
         </div>

@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import RegistrationPage from './pages/RegistrationPage';
 import DashboardPage from './pages/DashBoardPage';
+import ExpenseCalculator from './pages/ExpenseCalculator';
 import Header from './components/Header';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegistrationPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/calculator" element={<ExpenseCalculator />} />
+         
       </Routes>
     </Router>
   );
