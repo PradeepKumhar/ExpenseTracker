@@ -30,3 +30,4 @@ Thumbs.db
 # But usually it's recommended to track these files for consistent dependencies.
 # /backend/package-lock.json
 # /frontend/package-lock.json
+node_modules
